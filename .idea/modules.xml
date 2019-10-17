@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jeecg-boot.iml" filepath="$PROJECT_DIR$/.idea/jeecg-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-base-common/jeecg-boot-base-common.iml" filepath="$PROJECT_DIR$/jeecg-boot/jeecg-boot-base-common/jeecg-boot-base-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-exam/jeecg-boot-module-exam.iml" filepath="$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-exam/jeecg-boot-module-exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/jeecg-boot-module-system.iml" filepath="$PROJECT_DIR$/jeecg-boot/jeecg-boot-module-system/jeecg-boot-module-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jeecg-boot/jeecg-boot-parent.iml" filepath="$PROJECT_DIR$/jeecg-boot/jeecg-boot-parent.iml" />
+    </modules>
+  </component>
+</project>
