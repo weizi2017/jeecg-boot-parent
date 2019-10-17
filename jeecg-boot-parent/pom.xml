@@ -16,7 +16,7 @@
 	<modules>
 		<module>jeecg-boot-base-common</module>
 		<module>jeecg-boot-module-system</module>
-        <module>../jeecg-boot-module-exam</module>
+        <module>jeecg-boot-module-exam</module>
     </modules>
 	
 	<distributionManagement>

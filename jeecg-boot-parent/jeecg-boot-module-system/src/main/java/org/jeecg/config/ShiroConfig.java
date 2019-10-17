@@ -45,6 +45,7 @@ public class ShiroConfig {
 		//cas验证登录
 		filterChainDefinitionMap.put("/cas/client/validateLogin", "anon");
 		// 配置不会被拦截的链接 顺序判断
+		filterChainDefinitionMap.put("/hello/**", "anon"); //测试新添加的module，不带token访问
 		filterChainDefinitionMap.put("/sys/login", "anon"); //登录接口排除
 		filterChainDefinitionMap.put("/sys/logout", "anon"); //登出接口排除
 		filterChainDefinitionMap.put("/sys/getEncryptedString", "anon"); //获取加密串
