@@ -5,14 +5,14 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.jeecg.modules.exam.entity.ExamQuestion;
+import org.jeecg.modules.exam.entity.ExamBank;
 
 /**
- * @Description: 存储题目
+ * @Description: 题库管理
  * @Author: jeecg-boot
  * @Date:   2019-10-18
  * @Version: V1.0
  */
-public interface ExamQuestionMapper extends BaseMapper<ExamQuestion> {
+public interface ExamBankMapper extends BaseMapper<ExamBank> {
 
 }

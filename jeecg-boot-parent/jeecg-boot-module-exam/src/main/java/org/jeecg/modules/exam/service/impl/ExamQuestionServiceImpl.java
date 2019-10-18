@@ -1,8 +1,9 @@
-package org.jeecg.modules.demo.exam.service.impl;
+package org.jeecg.modules.exam.service.impl;
 
-import org.jeecg.modules.demo.exam.entity.ExamQuestion;
-import org.jeecg.modules.demo.exam.mapper.ExamQuestionMapper;
-import org.jeecg.modules.demo.exam.service.IExamQuestionService;
+
+import org.jeecg.modules.exam.entity.ExamQuestion;
+import org.jeecg.modules.exam.mapper.ExamQuestionMapper;
+import org.jeecg.modules.exam.service.IExamQuestionService;
 import org.springframework.stereotype.Service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

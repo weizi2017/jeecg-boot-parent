@@ -10,6 +10,10 @@
     <a-spin :spinning="confirmLoading">
       <a-form :form="form">
 
+        <a-form-item label="题库名称" :labelCol="labelCol" :wrapperCol="wrapperCol">
+          <j-dict-select-tag type="list" v-decorator="['examBankName']" :trigger-change="true" dictCode="exam_bank,exam_name,id" placeholder="请选择题库名称"/>
+        </a-form-item>
+          
         <a-form-item label="题目类型" :labelCol="labelCol" :wrapperCol="wrapperCol">
           <j-dict-select-tag type="radio" v-decorator="['quesType']" :trigger-change="true" dictCode="exam_type" placeholder="请选择题目类型"/>
         </a-form-item>
@@ -50,10 +54,6 @@
           <a-input v-decorator="[ 'quesCheck4', validatorRules.quesCheck4]" placeholder="请输入文字选项4"></a-input>
         </a-form-item>
           
-        <a-form-item label="文字选项5" :labelCol="labelCol" :wrapperCol="wrapperCol">
-          <a-input v-decorator="[ 'quesCheck5', validatorRules.quesCheck5]" placeholder="请输入文字选项5"></a-input>
-        </a-form-item>
-          
         <a-form-item label="图片选项1" :labelCol="labelCol" :wrapperCol="wrapperCol">
           <j-upload v-decorator="['quesCheckImg1']" :trigger-change="true"></j-upload>
         </a-form-item>
@@ -70,20 +70,12 @@
           <j-upload v-decorator="['quesCheckImg4']" :trigger-change="true"></j-upload>
         </a-form-item>
           
-        <a-form-item label="图片选项5" :labelCol="labelCol" :wrapperCol="wrapperCol">
-          <j-upload v-decorator="['quesCheckImg5']" :trigger-change="true"></j-upload>
-        </a-form-item>
-          
         <a-form-item label="答案" :labelCol="labelCol" :wrapperCol="wrapperCol">
           <a-input v-decorator="[ 'quesAnswer', validatorRules.quesAnswer]" placeholder="请输入答案"></a-input>
         </a-form-item>
           
         <a-form-item label="答案解析" :labelCol="labelCol" :wrapperCol="wrapperCol">
           <a-textarea v-decorator="['quesKey']" rows="4" placeholder="请输入答案解析"/>
-        </a-form-item>
-          
-        <a-form-item label="题目分值" :labelCol="labelCol" :wrapperCol="wrapperCol">
-          <a-input v-decorator="[ 'quesMark', validatorRules.quesMark]" placeholder="请输入题目分值"></a-input>
         </a-form-item>
           
         
@@ -123,6 +115,7 @@
 
         confirmLoading: false,
         validatorRules:{
+        examBankName:{},
         quesType:{rules: [{ required: true, message: '请输入题目类型!' }]},
         quesContent:{rules: [{ required: true, message: '请输入题目内容!' }]},
         quesImg1:{},
@@ -133,15 +126,12 @@
         quesCheck2:{},
         quesCheck3:{},
         quesCheck4:{},
-        quesCheck5:{},
         quesCheckImg1:{},
         quesCheckImg2:{},
         quesCheckImg3:{},
         quesCheckImg4:{},
-        quesCheckImg5:{},
         quesAnswer:{rules: [{ required: true, message: '请输入答案!' }]},
         quesKey:{},
-        quesMark:{rules: [{ required: true, message: '请输入题目分值!' }]},
         },
         url: {
           add: "/exam/examQuestion/add",
@@ -161,7 +151,7 @@
         this.model = Object.assign({}, record);
         this.visible = true;
         this.$nextTick(() => {
-          this.form.setFieldsValue(pick(this.model,'quesType','quesContent','quesImg1','quesImg2','quesImg3','quesImg4','quesCheck1','quesCheck2','quesCheck3','quesCheck4','quesCheck5','quesCheckImg1','quesCheckImg2','quesCheckImg3','quesCheckImg4','quesCheckImg5','quesAnswer','quesKey','quesMark'))
+          this.form.setFieldsValue(pick(this.model,'examBankName','quesType','quesContent','quesImg1','quesImg2','quesImg3','quesImg4','quesCheck1','quesCheck2','quesCheck3','quesCheck4','quesCheckImg1','quesCheckImg2','quesCheckImg3','quesCheckImg4','quesAnswer','quesKey'))
         })
       },
       close () {
@@ -204,7 +194,7 @@
         this.close()
       },
       popupCallback(row){
-        this.form.setFieldsValue(pick(row,'quesType','quesContent','quesImg1','quesImg2','quesImg3','quesImg4','quesCheck1','quesCheck2','quesCheck3','quesCheck4','quesCheck5','quesCheckImg1','quesCheckImg2','quesCheckImg3','quesCheckImg4','quesCheckImg5','quesAnswer','quesKey','quesMark'))
+        this.form.setFieldsValue(pick(row,'examBankName','quesType','quesContent','quesImg1','quesImg2','quesImg3','quesImg4','quesCheck1','quesCheck2','quesCheck3','quesCheck4','quesCheckImg1','quesCheckImg2','quesCheckImg3','quesCheckImg4','quesAnswer','quesKey'))
       }
       
     }

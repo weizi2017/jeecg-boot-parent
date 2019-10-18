@@ -1,4 +1,4 @@
-package org.jeecg.modules.demo.exam.entity;
+package org.jeecg.modules.exam.entity;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -45,9 +45,15 @@ public class ExamQuestion implements Serializable {
 	/**所属部门*/
 	@Excel(name = "所属部门", width = 15)
 	private java.lang.String sysOrgCode;
+	/**题库名称*/
+	@Excel(name = "题库名称", width = 15)
+	private java.lang.String examBankName;
 	/**题目类型*/
 	@Excel(name = "题目类型", width = 15)
 	private java.lang.String quesType;
+	/**题库id*/
+	@Excel(name = "题库id", width = 15)
+	private java.lang.String examBankId;
 	/**题目内容*/
 	@Excel(name = "题目内容", width = 15)
 	private java.lang.String quesContent;
@@ -75,9 +81,6 @@ public class ExamQuestion implements Serializable {
 	/**文字选项4*/
 	@Excel(name = "文字选项4", width = 15)
 	private java.lang.String quesCheck4;
-	/**文字选项5*/
-	@Excel(name = "文字选项5", width = 15)
-	private java.lang.String quesCheck5;
 	/**图片选项1*/
 	@Excel(name = "图片选项1", width = 15)
 	private java.lang.String quesCheckImg1;
@@ -90,16 +93,10 @@ public class ExamQuestion implements Serializable {
 	/**图片选项4*/
 	@Excel(name = "图片选项4", width = 15)
 	private java.lang.String quesCheckImg4;
-	/**图片选项5*/
-	@Excel(name = "图片选项5", width = 15)
-	private java.lang.String quesCheckImg5;
 	/**答案*/
 	@Excel(name = "答案", width = 15)
 	private java.lang.String quesAnswer;
 	/**答案解析*/
 	@Excel(name = "答案解析", width = 15)
 	private java.lang.String quesKey;
-	/**题目分值*/
-	@Excel(name = "题目分值", width = 15)
-	private java.lang.String quesMark;
 }

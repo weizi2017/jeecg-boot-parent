@@ -19,8 +19,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
 
-import org.jeecg.modules.exam.entity.ExamQuestion;
-import org.jeecg.modules.exam.service.IExamQuestionService;
+import org.jeecg.modules.exam.entity.ExamBank;
+import org.jeecg.modules.exam.service.IExamBankService;
 import org.jeecgframework.poi.excel.ExcelImportUtil;
 import org.jeecgframework.poi.excel.def.NormalExcelConstants;
 import org.jeecgframework.poi.excel.entity.ExportParams;
@@ -35,35 +35,35 @@ import org.springframework.web.servlet.ModelAndView;
 import com.alibaba.fastjson.JSON;
 
  /**
- * @Description: 存储题目
+ * @Description: 题库管理
  * @Author: jeecg-boot
  * @Date:   2019-10-18
  * @Version: V1.0
  */
 @RestController
-@RequestMapping("/exam/examQuestion")
+@RequestMapping("/exam/examBank")
 @Slf4j
-public class ExamQuestionController {
+public class ExamBankController {
 	@Autowired
-	private IExamQuestionService examQuestionService;
+	private IExamBankService examBankService;
 	
 	/**
 	  * 分页列表查询
-	 * @param examQuestion
+	 * @param examBank
 	 * @param pageNo
 	 * @param pageSize
 	 * @param req
 	 * @return
 	 */
 	@GetMapping(value = "/list")
-	public Result<IPage<ExamQuestion>> queryPageList(ExamQuestion examQuestion,
-                                                     @RequestParam(name="pageNo", defaultValue="1") Integer pageNo,
-                                                     @RequestParam(name="pageSize", defaultValue="10") Integer pageSize,
-                                                     HttpServletRequest req) {
-		Result<IPage<ExamQuestion>> result = new Result<IPage<ExamQuestion>>();
-		QueryWrapper<ExamQuestion> queryWrapper = QueryGenerator.initQueryWrapper(examQuestion, req.getParameterMap());
-		Page<ExamQuestion> page = new Page<ExamQuestion>(pageNo, pageSize);
-		IPage<ExamQuestion> pageList = examQuestionService.page(page, queryWrapper);
+	public Result<IPage<ExamBank>> queryPageList(ExamBank examBank,
+												 @RequestParam(name="pageNo", defaultValue="1") Integer pageNo,
+												 @RequestParam(name="pageSize", defaultValue="10") Integer pageSize,
+												 HttpServletRequest req) {
+		Result<IPage<ExamBank>> result = new Result<IPage<ExamBank>>();
+		QueryWrapper<ExamBank> queryWrapper = QueryGenerator.initQueryWrapper(examBank, req.getParameterMap());
+		Page<ExamBank> page = new Page<ExamBank>(pageNo, pageSize);
+		IPage<ExamBank> pageList = examBankService.page(page, queryWrapper);
 		result.setSuccess(true);
 		result.setResult(pageList);
 		return result;
@@ -71,14 +71,14 @@ public class ExamQuestionController {
 	
 	/**
 	  *   添加
-	 * @param examQuestion
+	 * @param examBank
 	 * @return
 	 */
 	@PostMapping(value = "/add")
-	public Result<ExamQuestion> add(@RequestBody ExamQuestion examQuestion) {
-		Result<ExamQuestion> result = new Result<ExamQuestion>();
+	public Result<ExamBank> add(@RequestBody ExamBank examBank) {
+		Result<ExamBank> result = new Result<ExamBank>();
 		try {
-			examQuestionService.save(examQuestion);
+			examBankService.save(examBank);
 			result.success("添加成功！");
 		} catch (Exception e) {
 			log.error(e.getMessage(),e);
@@ -89,17 +89,17 @@ public class ExamQuestionController {
 	
 	/**
 	  *  编辑
-	 * @param examQuestion
+	 * @param examBank
 	 * @return
 	 */
 	@PutMapping(value = "/edit")
-	public Result<ExamQuestion> edit(@RequestBody ExamQuestion examQuestion) {
-		Result<ExamQuestion> result = new Result<ExamQuestion>();
-		ExamQuestion examQuestionEntity = examQuestionService.getById(examQuestion.getId());
-		if(examQuestionEntity==null) {
+	public Result<ExamBank> edit(@RequestBody ExamBank examBank) {
+		Result<ExamBank> result = new Result<ExamBank>();
+		ExamBank examBankEntity = examBankService.getById(examBank.getId());
+		if(examBankEntity==null) {
 			result.error500("未找到对应实体");
 		}else {
-			boolean ok = examQuestionService.updateById(examQuestion);
+			boolean ok = examBankService.updateById(examBank);
 			//TODO 返回false说明什么？
 			if(ok) {
 				result.success("修改成功!");
@@ -117,7 +117,7 @@ public class ExamQuestionController {
 	@DeleteMapping(value = "/delete")
 	public Result<?> delete(@RequestParam(name="id",required=true) String id) {
 		try {
-			examQuestionService.removeById(id);
+			examBankService.removeById(id);
 		} catch (Exception e) {
 			log.error("删除失败",e.getMessage());
 			return Result.error("删除失败!");
@@ -131,12 +131,12 @@ public class ExamQuestionController {
 	 * @return
 	 */
 	@DeleteMapping(value = "/deleteBatch")
-	public Result<ExamQuestion> deleteBatch(@RequestParam(name="ids",required=true) String ids) {
-		Result<ExamQuestion> result = new Result<ExamQuestion>();
+	public Result<ExamBank> deleteBatch(@RequestParam(name="ids",required=true) String ids) {
+		Result<ExamBank> result = new Result<ExamBank>();
 		if(ids==null || "".equals(ids.trim())) {
 			result.error500("参数不识别！");
 		}else {
-			this.examQuestionService.removeByIds(Arrays.asList(ids.split(",")));
+			this.examBankService.removeByIds(Arrays.asList(ids.split(",")));
 			result.success("删除成功!");
 		}
 		return result;
@@ -148,13 +148,13 @@ public class ExamQuestionController {
 	 * @return
 	 */
 	@GetMapping(value = "/queryById")
-	public Result<ExamQuestion> queryById(@RequestParam(name="id",required=true) String id) {
-		Result<ExamQuestion> result = new Result<ExamQuestion>();
-		ExamQuestion examQuestion = examQuestionService.getById(id);
-		if(examQuestion==null) {
+	public Result<ExamBank> queryById(@RequestParam(name="id",required=true) String id) {
+		Result<ExamBank> result = new Result<ExamBank>();
+		ExamBank examBank = examBankService.getById(id);
+		if(examBank==null) {
 			result.error500("未找到对应实体");
 		}else {
-			result.setResult(examQuestion);
+			result.setResult(examBank);
 			result.setSuccess(true);
 		}
 		return result;
@@ -167,10 +167,10 @@ public class ExamQuestionController {
    * @param response
    */
   @RequestMapping(value = "/exportXls")
-  public ModelAndView exportXls(HttpServletRequest request, ExamQuestion examQuestion) {
+  public ModelAndView exportXls(HttpServletRequest request, ExamBank examBank) {
       // Step.1 组装查询条件查询数据
-      QueryWrapper<ExamQuestion> queryWrapper = QueryGenerator.initQueryWrapper(examQuestion, request.getParameterMap());
-      List<ExamQuestion> pageList = examQuestionService.list(queryWrapper);
+      QueryWrapper<ExamBank> queryWrapper = QueryGenerator.initQueryWrapper(examBank, request.getParameterMap());
+      List<ExamBank> pageList = examBankService.list(queryWrapper);
       // Step.2 AutoPoi 导出Excel
       ModelAndView mv = new ModelAndView(new JeecgEntityExcelView());
       // 过滤选中数据
@@ -179,13 +179,13 @@ public class ExamQuestionController {
     	  mv.addObject(NormalExcelConstants.DATA_LIST, pageList);
       }else {
     	  List<String> selectionList = Arrays.asList(selections.split(","));
-    	  List<ExamQuestion> exportList = pageList.stream().filter(item -> selectionList.contains(item.getId())).collect(Collectors.toList());
+    	  List<ExamBank> exportList = pageList.stream().filter(item -> selectionList.contains(item.getId())).collect(Collectors.toList());
     	  mv.addObject(NormalExcelConstants.DATA_LIST, exportList);
       }
       //导出文件名称
-      mv.addObject(NormalExcelConstants.FILE_NAME, "存储题目列表");
-      mv.addObject(NormalExcelConstants.CLASS, ExamQuestion.class);
-      mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("存储题目列表数据", "导出人:Jeecg", "导出信息"));
+      mv.addObject(NormalExcelConstants.FILE_NAME, "题库管理列表");
+      mv.addObject(NormalExcelConstants.CLASS, ExamBank.class);
+      mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("题库管理列表数据", "导出人:Jeecg", "导出信息"));
       return mv;
   }
 
@@ -207,9 +207,9 @@ public class ExamQuestionController {
           params.setHeadRows(1);
           params.setNeedSave(true);
           try {
-              List<ExamQuestion> listExamQuestions = ExcelImportUtil.importExcel(file.getInputStream(), ExamQuestion.class, params);
-              examQuestionService.saveBatch(listExamQuestions);
-              return Result.ok("文件导入成功！数据行数:" + listExamQuestions.size());
+              List<ExamBank> listExamBanks = ExcelImportUtil.importExcel(file.getInputStream(), ExamBank.class, params);
+              examBankService.saveBatch(listExamBanks);
+              return Result.ok("文件导入成功！数据行数:" + listExamBanks.size());
           } catch (Exception e) {
               log.error(e.getMessage(),e);
               return Result.error("文件导入失败:"+e.getMessage());

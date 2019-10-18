@@ -4,26 +4,6 @@
     <div class="table-page-search-wrapper">
       <a-form layout="inline" @keyup.enter.native="searchQuery">
         <a-row :gutter="24">
-          <a-col :md="6" :sm="8">
-            <a-form-item label="题目类型">
-              <j-dict-select-tag placeholder="请选择题目类型" v-model="queryParam.quesType" dictCode="exam_type"/>
-            </a-form-item>
-          </a-col>
-          <a-col :md="6" :sm="8">
-            <a-form-item label="题目内容">
-              <a-input placeholder="请输入题目内容" v-model="queryParam.quesContent"></a-input>
-            </a-form-item>
-          </a-col>
-          <a-col :md="6" :sm="8" >
-            <span style="float: left;overflow: hidden;" class="table-page-search-submitButtons">
-              <a-button type="primary" @click="searchQuery" icon="search">查询</a-button>
-              <a-button type="primary" @click="searchReset" icon="reload" style="margin-left: 8px">重置</a-button>
-              <a @click="handleToggleSearch" style="margin-left: 8px">
-                {{ toggleSearchStatus ? '收起' : '展开' }}
-                <a-icon :type="toggleSearchStatus ? 'up' : 'down'"/>
-              </a>
-            </span>
-          </a-col>
 
         </a-row>
       </a-form>
@@ -33,7 +13,7 @@
     <!-- 操作按钮区域 -->
     <div class="table-operator">
       <a-button @click="handleAdd" type="primary" icon="plus">新增</a-button>
-      <a-button type="primary" icon="download" @click="handleExportXls('存储题目')">导出</a-button>
+      <a-button type="primary" icon="download" @click="handleExportXls('考试列表')">导出</a-button>
       <a-upload name="file" :showUploadList="false" :multiple="false" :headers="tokenHeader" :action="importExcelUrl" @change="handleImportExcel">
         <a-button type="primary" icon="import">导入</a-button>
       </a-upload>
@@ -100,26 +80,24 @@
       </a-table>
     </div>
 
-    <examQuestion-modal ref="modalForm" @ok="modalFormOk"></examQuestion-modal>
+    <examList-modal ref="modalForm" @ok="modalFormOk"></examList-modal>
   </a-card>
 </template>
 
 <script>
 
   import { JeecgListMixin } from '@/mixins/JeecgListMixin'
-  import ExamQuestionModal from './modules/ExamQuestionModal'
-  import JDictSelectTag from '@/components/dict/JDictSelectTag.vue'
+  import ExamListModal from './modules/ExamListModal'
   import {initDictOptions, filterMultiDictText} from '@/components/dict/JDictSelectUtil'
   export default {
-    name: "ExamQuestionList",
+    name: "ExamListList",
     mixins:[JeecgListMixin],
     components: {
-      JDictSelectTag,
-      ExamQuestionModal
+      ExamListModal
     },
     data () {
       return {
-        description: '存储题目管理页面',
+        description: '考试列表管理页面',
         // 表头
         columns: [
           {
@@ -133,111 +111,76 @@
             }
           },
           {
+            title:'考试名称',
+            align:"center",
+            dataIndex: 'examName'
+          },
+          {
+            title:'考试开始时间',
+            align:"center",
+            dataIndex: 'examStartTime'
+          },
+          {
+            title:'考试结束时间',
+            align:"center",
+            dataIndex: 'examEndTime'
+          },
+          {
             title:'题库名称',
             align:"center",
-            dataIndex: 'examBankName',
+            dataIndex: 'bankName',
             customRender:(text)=>{
               if(!text){
                 return ''
               }else{
-                return filterMultiDictText(this.dictOptions['examBankName'], text+"")
+                return filterMultiDictText(this.dictOptions['bankName'], text+"")
               }
             }
           },
           {
-            title:'题目类型',
+            title:'单选题数量',
             align:"center",
-            dataIndex: 'quesType',
-            customRender:(text)=>{
-              if(!text){
-                return ''
-              }else{
-                return filterMultiDictText(this.dictOptions['quesType'], text+"")
-              }
-            }
+            dataIndex: 'singleChoiceNum'
           },
           {
-            title:'题目内容',
+            title:'单选题分数',
             align:"center",
-            dataIndex: 'quesContent'
+            dataIndex: 'singleChoiceMark'
           },
           {
-            title:'题目图片1',
+            title:'多选题数量',
             align:"center",
-            dataIndex: 'quesImg1',
-            scopedSlots: {customRender: 'imgSlot'}
+            dataIndex: 'multipleChoiceNum'
           },
           {
-            title:'题目图片2',
+            title:'多选题分数',
             align:"center",
-            dataIndex: 'quesImg2',
-            scopedSlots: {customRender: 'imgSlot'}
+            dataIndex: 'multipleChoiceMark'
           },
           {
-            title:'题目图片3',
+            title:'判断题数量',
             align:"center",
-            dataIndex: 'quesImg3',
-            scopedSlots: {customRender: 'imgSlot'}
+            dataIndex: 'judgmentNum'
           },
           {
-            title:'题目图片4',
+            title:'判断题分数',
             align:"center",
-            dataIndex: 'quesImg4',
-            scopedSlots: {customRender: 'imgSlot'}
+            dataIndex: 'judgmentMark'
           },
           {
-            title:'文字选项1',
+            title:'及格分数',
             align:"center",
-            dataIndex: 'quesCheck1'
+            dataIndex: 'examPassMark'
           },
           {
-            title:'文字选项2',
+            title:'总分',
             align:"center",
-            dataIndex: 'quesCheck2'
+            dataIndex: 'examTotalMark'
           },
           {
-            title:'文字选项3',
+            title:'考试说明',
             align:"center",
-            dataIndex: 'quesCheck3'
-          },
-          {
-            title:'文字选项4',
-            align:"center",
-            dataIndex: 'quesCheck4'
-          },
-          {
-            title:'图片选项1',
-            align:"center",
-            dataIndex: 'quesCheckImg1',
-            scopedSlots: {customRender: 'imgSlot'}
-          },
-          {
-            title:'图片选项2',
-            align:"center",
-            dataIndex: 'quesCheckImg2',
-            scopedSlots: {customRender: 'imgSlot'}
-          },
-          {
-            title:'图片选项3',
-            align:"center",
-            dataIndex: 'quesCheckImg3',
-            scopedSlots: {customRender: 'imgSlot'}
-          },
-          {
-            title:'图片选项4',
-            align:"center",
-            dataIndex: 'quesCheckImg4',
-            scopedSlots: {customRender: 'imgSlot'}
-          },
-          {
-            title:'答案',
-            align:"center",
-            dataIndex: 'quesAnswer'
-          },
-          {
-            title:'答案解析',
-            align:"center",
-            dataIndex: 'quesKey'
+            dataIndex: 'examExplain'
           },
           {
             title: '操作',
@@ -247,15 +190,14 @@
           }
         ],
         url: {
-          list: "/exam/examQuestion/list",
-          delete: "/exam/examQuestion/delete",
-          deleteBatch: "/exam/examQuestion/deleteBatch",
-          exportXlsUrl: "/exam/examQuestion/exportXls",
-          importExcelUrl: "exam/examQuestion/importExcel",
+          list: "/manage/examList/list",
+          delete: "/manage/examList/delete",
+          deleteBatch: "/manage/examList/deleteBatch",
+          exportXlsUrl: "/manage/examList/exportXls",
+          importExcelUrl: "manage/examList/importExcel",
         },
         dictOptions:{
-         examBankName:[],
-         quesType:[],
+         bankName:[],
         } 
       }
     },
@@ -268,12 +210,7 @@
       initDictConfig(){
         initDictOptions('exam_bank,exam_name,id').then((res) => {
           if (res.success) {
-            this.$set(this.dictOptions, 'examBankName', res.result)
-          }
-        })
-        initDictOptions('exam_type').then((res) => {
-          if (res.success) {
-            this.$set(this.dictOptions, 'quesType', res.result)
+            this.$set(this.dictOptions, 'bankName', res.result)
           }
         })
       }
