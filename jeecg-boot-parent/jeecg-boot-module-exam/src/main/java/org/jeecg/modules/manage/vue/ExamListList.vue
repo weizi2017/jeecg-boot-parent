@@ -183,6 +183,18 @@
             dataIndex: 'examExplain'
           },
           {
+            title:'状态',
+            align:"center",
+            dataIndex: 'status',
+            customRender:(text)=>{
+              if(!text){
+                return ''
+              }else{
+                return filterMultiDictText(this.dictOptions['status'], text+"")
+              }
+            }
+          },
+          {
             title: '操作',
             dataIndex: 'action',
             align:"center",
@@ -198,6 +210,7 @@
         },
         dictOptions:{
          bankName:[],
+         status:[],
         } 
       }
     },
@@ -211,6 +224,11 @@
         initDictOptions('exam_bank,exam_name,id').then((res) => {
           if (res.success) {
             this.$set(this.dictOptions, 'bankName', res.result)
+          }
+        })
+        initDictOptions('exam_status').then((res) => {
+          if (res.success) {
+            this.$set(this.dictOptions, 'status', res.result)
           }
         })
       }

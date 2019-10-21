@@ -336,7 +336,7 @@ public class QueryGenerator {
 			case "class java.lang.Double":
 				temp =  Double.parseDouble(value);
 				break;
-			case "class java.util.Date":
+			case "class java.utils.Date":
 				temp = getDateQueryByRule(value, rule);
 				break;
 			default:

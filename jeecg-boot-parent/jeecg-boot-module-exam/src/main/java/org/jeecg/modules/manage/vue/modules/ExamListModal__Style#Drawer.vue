@@ -49,6 +49,9 @@
         <a-form-item label="考试说明" :labelCol="labelCol" :wrapperCol="wrapperCol">
           <a-textarea v-decorator="['examExplain']" rows="4" placeholder="请输入考试说明"/>
         </a-form-item>
+        <a-form-item label="状态" :labelCol="labelCol" :wrapperCol="wrapperCol">
+          <j-dict-select-tag type="list" v-decorator="['status']" :trigger-change="true" dictCode="exam_status" placeholder="请选择状态"/>
+        </a-form-item>
         
       </a-form>
     </a-spin>
@@ -101,6 +104,7 @@
         examPassMark:{},
         examTotalMark:{},
         examExplain:{},
+        status:{},
         },
         url: {
           add: "/manage/examList/add",
@@ -120,7 +124,7 @@
         this.model = Object.assign({}, record);
         this.visible = true;
         this.$nextTick(() => {
-          this.form.setFieldsValue(pick(this.model,'examName','examStartTime','examEndTime','bankName','singleChoiceNum','singleChoiceMark','multipleChoiceNum','multipleChoiceMark','judgmentNum','judgmentMark','examPassMark','examTotalMark','examExplain'))
+          this.form.setFieldsValue(pick(this.model,'examName','examStartTime','examEndTime','bankName','singleChoiceNum','singleChoiceMark','multipleChoiceNum','multipleChoiceMark','judgmentNum','judgmentMark','examPassMark','examTotalMark','examExplain','status'))
         })
       },
       close () {
@@ -163,7 +167,7 @@
         this.close()
       },
       popupCallback(row){
-        this.form.setFieldsValue(pick(row,'examName','examStartTime','examEndTime','bankName','singleChoiceNum','singleChoiceMark','multipleChoiceNum','multipleChoiceMark','judgmentNum','judgmentMark','examPassMark','examTotalMark','examExplain'))
+        this.form.setFieldsValue(pick(row,'examName','examStartTime','examEndTime','bankName','singleChoiceNum','singleChoiceMark','multipleChoiceNum','multipleChoiceMark','judgmentNum','judgmentMark','examPassMark','examTotalMark','examExplain','status'))
       }
       
     }

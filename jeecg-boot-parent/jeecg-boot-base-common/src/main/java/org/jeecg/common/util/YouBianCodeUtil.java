@@ -35,9 +35,9 @@ public class YouBianCodeUtil {
 			String after_code = code.substring(code.length() - 1 - numLength,code.length());
 			char after_code_zimu = after_code.substring(0, 1).charAt(0);
 			Integer after_code_num = Integer.parseInt(after_code.substring(1));
-//			org.jeecgframework.core.util.LogUtil.info(after_code);
-//			org.jeecgframework.core.util.LogUtil.info(after_code_zimu);
-//			org.jeecgframework.core.util.LogUtil.info(after_code_num);
+//			org.jeecgframework.core.utils.LogUtil.info(after_code);
+//			org.jeecgframework.core.utils.LogUtil.info(after_code_zimu);
+//			org.jeecgframework.core.utils.LogUtil.info(after_code_num);
 
 			String nextNum = "";
 			char nextZimu = 'A';
@@ -166,8 +166,8 @@ public class YouBianCodeUtil {
 		
 	}
 	public static void main(String[] args) {
-		// org.jeecgframework.core.util.LogUtil.info(getNextZiMu('C'));
-		// org.jeecgframework.core.util.LogUtil.info(getNextNum(8));
-	    // org.jeecgframework.core.util.LogUtil.info(cutYouBianCode("C99A01B01")[2]);
+		// org.jeecgframework.core.utils.LogUtil.info(getNextZiMu('C'));
+		// org.jeecgframework.core.utils.LogUtil.info(getNextNum(8));
+	    // org.jeecgframework.core.utils.LogUtil.info(cutYouBianCode("C99A01B01")[2]);
 	}
 }

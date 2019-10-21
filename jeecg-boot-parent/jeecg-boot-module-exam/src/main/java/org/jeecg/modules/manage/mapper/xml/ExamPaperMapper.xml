@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jeecg.modules.manage.mapper.ExamPaperMapper">
+    <resultMap type="org.jeecg.modules.manage.entity.ExamPaper" id="examPaperDbMap"/>
+
+    <select id="getExamPaperList" resultMap="examPaperDbMap">
+        select
+        e.id,
+        q.ques_type,
+        q.ques_content,
+        q.ques_img1,
+        q.ques_img2,
+        q.ques_img3,
+        q.ques_img4,
+        q.ques_check1,
+        q.ques_check2,
+        q.ques_check3,
+        q.ques_check4,
+        q.ques_check_img1,
+        q.ques_check_img2,
+        q.ques_check_img3,
+        q.ques_check_img4,
+        q.ques_answer,
+        q.ques_key,
+        q.exam_bank_id,
+        e.exam_list_id,
+        e.exam_ques_id,
+        e.user_id,
+        e.exam_result,
+        e.exam_result_mark
+        from exam_paper e
+        left join exam_question q
+        on q.id = e.exam_ques_id
+        where e.exam_list_id = #{examListId}
+        and e.user_id = #{userId}
+    </select>
+</mapper>

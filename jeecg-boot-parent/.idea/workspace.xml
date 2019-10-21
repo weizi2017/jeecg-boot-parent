@@ -2,60 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c4dfcb5-d2fc-4bfd-857d-73a3833f84a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamBankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamBankMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamBankMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamBankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamBankServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/ExamBankList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamBankModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamBankModal__Style#Drawer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/ExamListList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal__Style#Drawer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/controller/ExamListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/entity/ExamList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/mapper/ExamListMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/service/IExamListService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/service/impl/ExamListServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/controller/ExamBankController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/controller/ExamQuestionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/entity/ExamBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/entity/ExamQuestion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/ExamBankMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/ExamQuestionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/xml/ExamBankMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/service/IExamBankService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/service/IExamQuestionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/service/impl/ExamBankServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamUserPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/job/ExamStatusJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamPaperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamUserPaperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamPaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamUserPaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/utils/RandomUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamQuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamQuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/system/query/QueryGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/system/query/QueryGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/util/YouBianCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/util/YouBianCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamQuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamQuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/ExamQuestionList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/ExamQuestionList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal__Style#Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal__Style#Drawer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/exam/controller/ExamQuestionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/exam/entity/ExamQuestion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/exam/mapper/ExamQuestionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/exam/service/IExamQuestionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/exam/service/impl/ExamQuestionServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/ExamListList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/ExamListList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal__Style#Drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal__Style#Drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/controller/ExamListController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/entity/ExamList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/mapper/ExamListMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/service/IExamListService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/demo/manage/service/impl/ExamListServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/entity/ExamQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/entity/ExamQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/ExamQuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/exam/mapper/ExamQuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-exam/target/classes/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/aspect/DictAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/aspect/DictAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jeecg-boot/jeecg-boot-base-common/jeecg-boot-base-common.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jeecg-boot/jeecg-boot-module-exam/jeecg-boot-module-exam.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jeecg-boot/jeecg-boot-module-system/jeecg-boot-module-system.iml" beforeDir="false" />
@@ -76,7 +61,99 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="243" column="36" lean-forward="true" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#11158#11175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamPaperMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/system/query/QueryGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamUserPaperMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys_user</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -85,40 +162,48 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org.jeecg.modules/ExamController.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamBank.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamBankMapper.xml" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamBankMapper.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamBankService.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamBankController.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamBankServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml" />
-        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamQuestionService.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.java" />
         <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamQuestionController.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/job/ExamStatusJob.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/job/ExamStatusJob.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/utils/RandomUtil.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamPaper.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamPaperMapper.xml" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisKeys.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamUserPaperMapper.xml" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamUserPaperMapper.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamPaperMapper.java" />
+        <option value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="514" />
+    <option name="y" value="62" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -135,12 +220,85 @@
               <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeecg-boot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeecg-boot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="jeecg-boot-module-system" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,18 +310,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jeecg.modules.exam.redis" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\manage\vue" />
-      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\exam" />
+      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\manage" />
+      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\exam\entity" />
+      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\manage\entity" />
+      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules\manage\mapper" />
+      <recent name="D:\workspace\ideaWorkSpace\jeecg-boot\jeecg-boot-parent\jeecg-boot-module-exam\src\main\java\org\jeecg\modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,7 +363,10 @@
       <updated>1571320689830</updated>
       <workItem from="1571320693765" duration="1971000" />
       <workItem from="1571327096046" duration="9568000" />
-      <workItem from="1571381452071" duration="8926000" />
+      <workItem from="1571381452071" duration="12610000" />
+      <workItem from="1571444558877" duration="20406000" />
+      <workItem from="1571589232133" duration="628000" />
+      <workItem from="1571626000193" duration="12206000" />
     </task>
     <task id="LOCAL-00001" summary="新增试题模块">
       <created>1571339822265</created>
@@ -208,16 +375,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571339822265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增题库模块">
+      <created>1571416544537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571416544537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20465000" />
+    <option name="totallyTimeSpent" value="57389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -226,22 +401,22 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28958786" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.14642082" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.15184382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.39154014" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23644252" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.6605206" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.04338395" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.1988273" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.1988273" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -249,7 +424,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,340 +432,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增试题模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增试题模块" />
+    <MESSAGE value="新增题库模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增题库模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/job/ExamStatusJob.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/demo/examquestion/controller/ExamQuestionController.java" />
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1681">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/demo/exam/controller/ExamQuestionController.java" />
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" column="83" selection-start-line="47" selection-start-column="83" selection-end-line="47" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/AutoPoiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/Swagger2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/WebMvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/WebSocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/ExamQuestionList.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/vue/modules/ExamQuestionModal__Style#Drawer.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamBank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamBankMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamBankMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamBankService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamBankController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#2273#2283#0" expanded="true" />
-            <element signature="e#2636#2646#0" expanded="true" />
-            <element signature="e#3016#3026#0" expanded="true" />
-            <element signature="e#3879#3889#0" expanded="true" />
-            <element signature="e#4306#4316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamBankServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamQuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamQuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamQuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/JeecgApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/controller/JeecgDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/controller/JeecgOrderDMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/demo/test/controller/JoaDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/cas/controller/CasClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/message/controller/SysMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/DuplicateCheckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysAnnouncementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysAnnouncementSendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysDataLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysDepartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysDictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/system/controller/SysDictItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -626,9 +493,370 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamBankService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/IExamQuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamBankServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/service/impl/ExamQuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="83" lean-forward="true" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/conditions/Wrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/jeecg-boot-mysql5.7-20190823.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="2932" column="22" lean-forward="true" selection-start-line="2932" selection-start-column="22" selection-end-line="2932" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/vue/modules/ExamListModal.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/IExamListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/service/impl/ExamListServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/JeecgApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/core/JobRunShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/job/ExamStatusJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/modules/message/job/SendMsgJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/api/vo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamQuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="70" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-system/src/main/java/org/jeecg/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="47" column="76" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/mapper/xml/ExamPaperMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/utils/RandomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#168#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamListMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/controller/ExamBankController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/xml/ExamBankMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamBankMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamPaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/entity/ExamQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1306">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/redis/RedisKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/exam/mapper/ExamQuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/xml/ExamUserPaperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-base-common/src/main/java/org/jeecg/common/system/query/QueryGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/entity/ExamUserPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamUserPaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamListMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/mapper/ExamPaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeecg-boot-module-exam/src/main/java/org/jeecg/modules/manage/controller/ExamListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="243" column="36" lean-forward="true" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11158#11175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -646,6 +874,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jeecg-boot-module-exam</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
